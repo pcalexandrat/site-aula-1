@@ -58,6 +58,7 @@ body {
 
 .estudante-imagem{
     width: 120px;
+    display: flex;
 }
 
 .estudante-icone{
