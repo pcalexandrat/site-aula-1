@@ -1,3 +1,5 @@
+@import url("style/header.css");
+
 *{
     margin: 0;
     padding: 0;
@@ -30,9 +32,6 @@ body {
     color: white;
 }
 
-.escola-imagem{
-    width: 25%;
-}
 
 .escola{
     
@@ -47,19 +46,36 @@ body {
     width: 35%;
 }
 
-
-.escola-titulo{
-    padding: 24px 0;
+.escola-titulo {
+    font-weight: 700;
+    font-size: 38px;
 }
 
-#estudante{
-    padding: 24px 0;
+.escola-texto-um {
+       font-size: 28px;
+       
 }
 
+.escola-texto-dois {
+   
+    font-size: 18px;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+
+.estudante{
+    padding: 24px 0;
+    color:white;
+   }
 
 .estudante-imagem{
     width: 120px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 }
 
 .estudante-icone{
@@ -82,6 +98,28 @@ body {
     grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 28px;
+    color: white;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista__item {
+    font-size: 28px;
+    color: white;
+}
+
 .rodape{
     background-color: black;
     text-align: center;
@@ -97,4 +135,3 @@ body {
     padding: 12px 0;
    
 }
-
